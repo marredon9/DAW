@@ -1,0 +1,17 @@
+package tema5;
+
+public class ejercicio19 {
+
+	public static void main(String[] args) {
+		int[] numero = {1, 2, 3, 4 ,5 ,6 ,7 ,8 ,9};
+		int suma = 0;
+		
+		for (int i = 0; i < numero.length; i++) {
+			if (numero[i] %2 !=0) {
+				suma += numero[i]; 
+			}
+		}
+		System.out.println(suma);
+	}
+
+}
