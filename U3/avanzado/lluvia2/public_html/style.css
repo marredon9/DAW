@@ -1,0 +1,57 @@
+body{
+    background-image: url(img/lluvia.png);
+}
+
+#texto{
+    border: 2px solid rgb(15, 5, 93);
+    margin-bottom: 0px;
+    border-radius: 25px;
+    background-color: rgba(216, 238, 247, 0.9);
+    width: 600px;
+    height: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    position: relative;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: "Handlee";
+    font-size: 24px;
+    margin: auto;
+    display: block;
+}
+
+pre{
+    
+    font-family: "Handlee";
+    font-size: 14px;
+    white-space: pre-wrap;
+    text-align: justify;
+    margin-right: 220px;
+}
+
+#imagen{
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
+
+#pintura{
+    text-align: center;
+    font-family: "Handlee";
+    font-size: 14px;
+    margin-top: 10px;
+    
+}

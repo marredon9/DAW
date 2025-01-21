@@ -1,0 +1,55 @@
+body {
+    background-image: url(img/fondocalavera.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 70px;
+}
+
+#cancionPirata {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+#titulo {
+    margin-bottom: 20px;
+    font-family: Handlee;
+    color:#5415D5;
+}
+
+#cancion {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#texto {
+    text-align: justify;
+    line-height: 1.6;
+    margin-right: 20px;
+    width: 60%;
+    padding-left: 40px;
+        font-family: Handlee;
+        font-size: 20px;
+}
+
+#imagen img {
+    width: 270px;
+    height: auto;
+    border-radius: 10px;
+    padding-right: 200px;
+}
+
+span{
+        color:#5415D5;
+}
+
