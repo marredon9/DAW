@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UFT-8"?>
+
+<peliculas>
+	<pelicula>
+		<titulo>Interstellar</titulo>
+		<sinopsis>Viaje intelestelar en busca de un nuevo hogar</sinopsis>
+		<director>Christopher Nolan</director>
+	</pelicula>
+	<pelicula>
+		<titulo>Parasite</titulo>
+		<sinopsis>Desigualdad social reflejada en dos familias</sinopsis>
+		<director>Bong Joon-ho</director>
+	</pelicula>
+	<pelicula>
+		<titulo>El Padrino</titulo>
+		<sinopsis>Historia de una familia mafiosa en EE.UU</sinopsis>
+		<director>Francis Ford Coppola</director>
+	</pelicula>
+</peliculas>
