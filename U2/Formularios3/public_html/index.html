@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="urlpagina">
+        <fieldset>
+            <legend>Preferencias</legend>
+            <label for="fecha">Elija una fecha:</label>
+            <input type="date" id="fecha" name="fecha"/><br>
+            <label for="hora">Elija una hora:</label>
+            <input type="time" id="hora" name="hora"/><br>
+                Elija un fichero:
+                <input type="file"/>
+                <br>
+                <select name="lenguaje" size="5" multiple>
+                    <option value="python">Python</option>
+                    <option value="html">HTML</option>
+                    <option value="visual_basic">Visual Basic</option>
+                    <option value="java">Java</option>
+                </select>
+            <br>
+            <label for="color">Elija un color:</label>
+            <input type="color" id="color" name="color" value="#000000"/><br>
+            <input type="checkbox" name="hardware" value="hardwaremonitor_led"/>Monitor LED<br>
+            <input type="checkbox" name="hardware" value="hardwaressd"/>SSD<br>
+            <textarea id="descripcion" name="descripcion" placeholder="Inserte aqui el texto" cols="48" rows="5"></textarea><br>
+            <label for="instituto">Instituto</label>
+            <input type="text" id="instituto" name="instituto" maxlength="50"/><br>
+            <label for="estudios">Estudios elegidos</label>
+            <input type="text" id="estudios" name="estudios" maxlength="50"/><br>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50"/><br>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50"/><br>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" maxlength="50"><br>
+            <input type="radio" id="usb" name="conector" value="conectorusb"/>
+            <label for="usb">USB</label><br>
+            <input type="radio" id="paralelo" name="conector" value="conectorparalelo"/>
+            <label for="paralelo">Paralelo</label><br>
+            <input type="radio" id="ps2" name="conector" value="conectorps2"/>
+            <label for="ps2">PS2</label><br>
+        </fieldset>
+        </form>
+    </body>
+</html>

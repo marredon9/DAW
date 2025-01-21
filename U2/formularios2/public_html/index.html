@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Formulario 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>Datos fiscales</legend>
+            <input type="radio" id="paro" name="paro">En paro<br>
+            <input type="radio" id="autonomo" name="autonomo">Autónomo<br>
+            <input type="radio" id="ajena" name="ajena">Por cuenta ajena<br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name">Nombre</label><br>
+            <input type="text" id="name" name="nombre" maxlength="50"><br><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50"><br><br>
+            <label for="sueldo">Sueldo</label>
+            <select id="sueldo" name="sueldo">
+                <option value="1">Mas de 400 euros</option>
+                <option value="2">Menos de 400 euros</option>
+                <option value="3">Variables</option>
+            </select><br><br>
+            <input type="checkbox" name="enfermedad">Con enfermedad profesional<br><br>
+            <input type="checkbox" name="padres">Con padres a cargo<br><br>
+            <input type="checkbox" name="hijos">Con hijos a cargo<br><br>
+            
+        </fieldset>
+        </form>
+    </body>
+</html>
