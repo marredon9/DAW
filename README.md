@@ -22,7 +22,7 @@ This branch contains Java projects focused on learning and mastering the basics.
 1. Clone the repository and switch to this branch:
    ```sh
    git clone https://github.com/marredon/DAW.git
-   cd your-repo-name
+   cd DAW
    git checkout programacion
    ```
 2. Navigate through the topics and practice with the provided examples.
