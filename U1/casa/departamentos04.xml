@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UFT-8"?>
+
+<departamentos>
+	<departamento>
+		<nombre>Recursos Humanos</nombre>
+		<empleado>Juan Pérez</empleado>
+		<puesto>Responsable</puesto>
+	</departamento>
+	<departamento>
+		<nombre>Marketing</nombre>
+		<empleado>María López</empleado>
+		<puesto>Publicista</puesto>
+	</departamento>
+	<departamento>
+		<nombre>IT</nombre>
+		<empleado/>
+		<puesto/>
+	</departamento>
+</departamentos>
