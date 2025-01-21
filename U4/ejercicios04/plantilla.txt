@@ -1,0 +1,89 @@
+public class EjerciciosJava {
+
+    public static void main(String[] args) {
+        // Ejercicio 1
+        double radio = 5;
+        System.out.println("Área del círculo: " + areaCirculo(radio));
+
+        // Ejercicio 2
+        double celsius = 25;
+        System.out.println("Fahrenheit: " + celsiusAFahrenheit(celsius));
+
+        // Ejercicio 3
+        int numero = 10;
+        System.out.println("El número " + numero + " es par: " + esPar(numero));
+
+        // Ejercicio 4
+        int n = 5;
+        System.out.println("Factorial de " + n + " es: " + factorial(n));
+
+        // Ejercicio 5
+        String texto = "Hola mundo";
+        System.out.println("Número de vocales: " + contarVocales(texto));
+
+        // Ejercicio 6
+        System.out.println("Promedio: " + promedio(8, 7, 9));
+
+        // Ejercicio 7
+        double base = 4;
+        double altura = 3;
+        System.out.println("Área del triángulo: " + areaTriangulo(base, altura));
+
+        // Ejercicio 8
+        int num = 123;
+        System.out.println("Suma de dígitos: " + sumaDigitos(num));
+
+        // Ejercicio 9
+        int año = 2024;
+        System.out.println("El año " + año + " es bisiesto: " + esBisiesto(año));
+
+        // Ejercicio 10
+        num = 456;
+        System.out.println("Número invertido: " + invertirNumero(num));
+
+        // Ejercicio 11
+        double longitud = 5;
+        double anchura = 3;
+        System.out.println("Perímetro del rectángulo: " + perimetroRectangulo(longitud, anchura));
+
+        // Ejercicio 12
+        String frase = "Esto es una prueba";
+        System.out.println("Número de palabras: " + contarPalabras(frase));
+
+        // Ejercicio 13
+        int a = 5, b = 10, c = 7;
+        System.out.println("Máximo: " + maximo(a, b, c));
+
+        // Ejercicio 14
+        double cateto1 = 3;
+        double cateto2 = 4;
+        System.out.println("Hipotenusa: " + calcularHipotenusa(cateto1, cateto2));
+
+        // Ejercicio 15
+        int numeroPrimo = 11;
+        System.out.println("El número " + numeroPrimo + " es primo: " + esPrimo(numeroPrimo));
+
+        // Ejercicio 16
+        String nombre = "Carlos";
+        System.out.println(generarSaludo(nombre));
+
+        // Ejercicio 17
+        int aSuma = 3, bSuma = 4;
+        System.out.println("Suma: " + sumar(aSuma, bSuma));
+
+        // Ejercicio 18
+        int minutos = 130;
+        System.out.println(convertirMinutos(minutos));
+
+        // Ejercicio 19
+        int numeroDoble = 5;
+        System.out.println(dobleTriple(numeroDoble));
+
+        // Ejercicio 20
+        int numSigno = -3;
+        System.out.println(determinarSigno(numSigno));
+    }
+
+    // Funciones
+
+}
