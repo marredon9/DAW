@@ -1,57 +1,41 @@
-# DAW (Web Applications Development) Repository
+# DAW - Markup Languages Branch
 
-Welcome to my DAW (Desarrollo de Aplicaciones Web) repository! This repository contains various projects and exercises related to web application development, including programming, MySQL, and markup languages. It is an evolving repository, continuously updated with new projects and improvements.
+Welcome to the **Markup Languages Branch** of my **DAW (Desarrollo de Aplicaciones Web)** repository! This branch focuses on projects and exercises related to **markup languages** and essential web technologies.
 
-📂 Repository Structure
+## 📂 Branch Content
 
-The repository is organized into the following sections:
+This branch covers the following technologies:
 
-1️⃣ Programming
+1. **HTML** - Structuring web pages with semantic elements.
+2. **CSS** - Styling web pages using modern techniques.
+3. **XML** - Data structuring and exchange.
+4. **JavaScript** - Adding interactivity and dynamic behavior to web pages.
 
-This section contains web development projects using different programming languages such as JavaScript and Java.
+## 🚀 Objectives
+- Master the basics of markup languages.
+- Learn how to style and format web pages effectively.
+- Understand how to structure and manipulate data with XML.
+- Implement interactive features using JavaScript.
 
-2️⃣ MySQL
+## 💡 How to Use This Branch
+1. Clone the repository and switch to this branch:
+   ```sh
+   git clone https://github.com/marredon9/DAW.git
+   cd DAW
+   git checkout lenguaje
+   ```
+2. Navigate through the topics and practice with the provided examples.
+3. Follow the documentation within each project for setup and execution instructions.
 
-Here, you will find database-related projects, including database schemas, queries, stored procedures, and database management exercises.
+## 🔄 Future Improvements
+- Adding more advanced CSS techniques.
+- Exploring JavaScript frameworks like React or Vue.
+- Implementing XML data transformations with XSLT.
 
-3️⃣ Markup Languages
-
-This section includes projects related to HTML, CSS, and other markup languages essential for web development.
-
-🚀 Technologies Used
-
-HTML & CSS: For structuring and styling web pages.
-
-JavaScript: For front-end interactivity.
-
-Java: For backend development.
-
-MySQL: For database management.
-
-💡 How to Use This Repository
-
-Clone the repository:
-
-git clone https://github.com/marredon9/DAW.git
-
-Navigate to the desired section.
-
-Open and modify the files as needed.
-
-Run the code according to the specified requirements in each section.
-
-📌 Future Improvements
-
-Adding more complex database projects.
-
-Implementing a full-stack web application.
-
-Exploring modern frameworks like React, Vue, or Spring Boot.
-
-Continuously updating and improving existing projects.
-
-📞 Contact
-
+## 📞 Contact
 If you have any questions or suggestions, feel free to reach out!
 
-Happy coding! 🚀
+---
+**Happy coding with markup languages! 🚀**
+
+
