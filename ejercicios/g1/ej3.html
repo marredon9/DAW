@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Redondeo de notas</title>
+</head>
+<body>
+<script>
+const n = Number(prompt("Nota (0-10):"));
+if (Number.isNaN(n)) {
+    console.log("Entrada no válida");
+    document.body.textContent = "Entrada no válida";
+} else {
+    const notaRedondeada = n.toFixed(1);
+    console.log("Nota: " + notaRedondeada);
+    document.body.textContent = "Nota: " + notaRedondeada;
+}
+</script>
+</body>
+</html>

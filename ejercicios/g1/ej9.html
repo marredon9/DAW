@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            const tiradas = [];
+            for(let i = 0; i < 10; i++){
+                const d = Math.floor(Math.random() * 6) + 1;
+                tiradas.push(d); 
+            }
+            
+            const suma = tiradas.reduce((acc, n) => acc + n, 0);
+            const media = suma / tiradas.length;
+            console.log(tiradas, `Media: ${media.toFixed(2)}`);
+
+        </script>
+    </body>
+</html>

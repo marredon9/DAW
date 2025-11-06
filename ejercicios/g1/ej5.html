@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            const pass = prompt("Contraseña:") ?? "";
+            const larga = pass.length >= 8;
+            const tieneNumero = /\d/.test(pass);
+
+            if(larga && tieneNumero){
+                console.log("Fuerte");
+            }else{
+                console.log("Falta:", [
+                    larga ? null : "8+ caracteres",
+                    tieneNumero ? null : "un numero",
+                ].filter(Boolean). join(", "));
+            }
+        </script>
+    </body>
+</html>

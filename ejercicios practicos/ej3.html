@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <img id="botella" src="img/foto1.webp" onclick="cambiarFoto()">
+<script>
+let variable = 1;
+function cambiarFoto() {
+    variable++;
+    if (variable == 5) variable = 1;
+    nombreArchivo = "";
+    switch (variable) {
+        case 1:
+            nombreArchivo = "img/foto1.webp";
+            break;
+        case 2:
+            nombreArchivo = "img/foto2.jpg";
+            break;
+        case 3:
+            nombreArchivo = "img/foto3.jpg";
+            break;
+        case 4:
+            nombreArchivo = "img/foto4.jpg";
+            break;
+    }
+    document.getElementById("botella").src = nombreArchivo;
+}
+</script>
+</body>
+</html>

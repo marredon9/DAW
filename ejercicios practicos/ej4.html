@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario Verdadero/Falso</title>
+    <style>
+        .correcto { color: green; }
+        .incorrecto { color: red; }
+        .pregunta { margin-bottom: 10px; }
+        #resultadoTotal { font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Cuestionario de Verdadero/Falso</h1>
+    <form id="cuestionario">
+        <div class="pregunta">
+            1. El sol es una estrella.<br>
+            <label><input type="radio" name="p1" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p1" value="falso"> Falso</label>
+            <span id="r1"></span>
+        </div>
+        <div class="pregunta">
+            2. La capital de Francia es Berlín.<br>
+            <label><input type="radio" name="p2" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p2" value="falso"> Falso</label>
+            <span id="r2"></span>
+        </div>
+        <div class="pregunta">
+            3. El agua hierve a 100°C.<br>
+            <label><input type="radio" name="p3" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p3" value="falso"> Falso</label>
+            <span id="r3"></span>
+        </div>
+        <div class="pregunta">
+            4. Los gatos son reptiles.<br>
+            <label><input type="radio" name="p4" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p4" value="falso"> Falso</label>
+            <span id="r4"></span>
+        </div>
+        <div class="pregunta">
+            5. La Tierra tiene una luna.<br>
+            <label><input type="radio" name="p5" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p5" value="falso"> Falso</label>
+            <span id="r5"></span>
+        </div>
+        <div class="pregunta">
+            6. El Everest es la montaña más alta del mundo.<br>
+            <label><input type="radio" name="p6" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p6" value="falso"> Falso</label>
+            <span id="r6"></span>
+        </div>
+        <div class="pregunta">
+            7. El oro es un gas.<br>
+            <label><input type="radio" name="p7" value="verdadero"> Verdadero</label>
+            <label><input type="radio" name="p7" value="falso"> Falso</label>
+            <span id="r7"></span>
+        </div>
+        <button type="button" onclick="corregir()">Corregir</button>
+    </form>
+    <div id="resultadoTotal"></div>
+
+    <script>
+        const respuestas = {
+            p1: "verdadero",
+            p2: "falso",
+            p3: "verdadero",
+            p4: "falso",
+            p5: "verdadero",
+            p6: "verdadero",
+            p7: "falso"
+        };
+
+        function corregir() {
+            let aciertos = 0;
+            for (let i = 1; i <= 7; i++) {
+                const pregunta = "p" + i;
+                const seleccion = document.querySelector('input[name="' + pregunta + '"]:checked');
+                const resultado = document.getElementById("r" + i);
+                if (seleccion) {
+                    if (seleccion.value === respuestas[pregunta]) {
+                        resultado.textContent = "✔";
+                        resultado.className = "correcto";
+                        aciertos++;
+                    } else {
+                        resultado.textContent = "✘";
+                        resultado.className = "incorrecto";
+                    }
+                } else {
+                    resultado.textContent = "Sin responder";
+                    resultado.className = "incorrecto";
+                }
+            }
+            document.getElementById("resultadoTotal").textContent = "Total de aciertos: " + aciertos + " de 7";
+        }
+    </script>
+</body>
+</html>

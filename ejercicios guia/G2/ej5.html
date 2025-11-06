@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            const secreto = Math.floor(Math.random() * 5) + 1;
+            let intentos = 0;
+            let x;
+
+            while (x !== secreto){
+                x = Number(prompt("Adivina 1-5"))
+                intentos++;
+            }
+            console.log(`Acertaste en ${intentos} intentos!`);
+        </script>
+    </body>
+</html>

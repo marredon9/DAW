@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function parseEnteroSeguro(str){
+                const n = parseInt(str, 10);
+                if(str != n){
+                    return null;
+                }
+                return n;
+            }
+            console.log(parseEnteroSeguro("42"));
+            console.log(parseEnteroSeguro("abc"));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket de compra</title>
+</head>
+<body>
+    <script>
+        const precio = Number(prompt("Precio unitario:"));
+        const cantidad = Number(prompt("Cantidad:"));
+        const IVA = 0.21;
+        const subtotal = precio * cantidad;
+        const ivaImporte = subtotal * IVA;
+        const total = subtotal + ivaImporte;
+
+        document.write(`Subtotal: ${subtotal.toFixed(2)}€<br>`);
+        document.write(`IVA: ${ivaImporte.toFixed(2)}€<br>`);
+        document.write(`Total: ${total.toFixed(2)}€<br>`);
+    </script>
+</body>
+</html>

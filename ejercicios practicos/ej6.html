@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenida Multilingüe</title>
+    <style>
+        #mensaje {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .espanol {
+            color: #007bff; /* Azul */
+        }
+        .ingles {
+            color: #28a745; /* Verde */
+        }
+        .ruso {
+            color: #dc3545; /* Rojo */
+        }
+    </style>
+</head>
+<body>
+    <button onclick="mostrarMensaje('es')">Español</button>
+    <button onclick="mostrarMensaje('en')">Inglés</button>
+    <button onclick="mostrarMensaje('ru')">Ruso</button>
+    <p id="mensaje"></p>
+
+    <script>
+        function mostrarMensaje(idioma) {
+            const mensaje = {
+                es: '¡Bienvenido!',
+                en: 'Welcome!',
+                ru: 'Добро пожаловать!'
+            };
+            const colores = {
+                es: 'espanol',
+                en: 'ingles',
+                ru: 'ruso'
+            };
+            const p = document.getElementById('mensaje');
+            p.textContent = mensaje[idioma];
+            p.className = colores[idioma];
+        }
+    </script>
+</body>
+</html>
