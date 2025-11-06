@@ -18,7 +18,6 @@ I’m currently developing my skills in web interface design, as well as in clie
   <li>🎨 <b>Markup Languages:</b> HTML and CSS for web structure and design.</li>
 </ul>
 
----
 
 ## 🚀 Technologies Used
 
@@ -30,7 +29,6 @@ I’m currently developing my skills in web interface design, as well as in clie
   <li><b>MySQL:</b> database management and integration.</li>
 </ul>
 
----
 
 ## 💡 How to Use This Repository
 
@@ -43,7 +41,6 @@ I’m currently developing my skills in web interface design, as well as in clie
   <li>Run the code following each project's requirements.</li>
 </ol>
 
----
 
 ## 📌 Future Improvements
 
@@ -55,7 +52,6 @@ I’m currently developing my skills in web interface design, as well as in clie
   <li>Update and optimize existing projects regularly.</li>
 </ul>
 
----
 
 ## 📞 Contact
 
@@ -73,7 +69,6 @@ If you have any questions or suggestions, feel free to reach out!
   <i>Repositorio de proyectos y ejercicios de DAW</i>
 </p>
 
----
 
 <div align="center">
   <img src="https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white" />
@@ -84,7 +79,6 @@ If you have any questions or suggestions, feel free to reach out!
   <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white" />
 </div>
 
----
 
 
 ## 💻 Descripción
@@ -95,7 +89,6 @@ Es un proyecto en constante evolución, actualizado con **nuevas prácticas, mej
 
 Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces web**, así como en el **desarrollo web tanto del lado del cliente como del servidor**, con el objetivo de crear aplicaciones completas, funcionales y atractivas.
 
----
 
 
 ## 📂 Estructura del Repositorio
@@ -107,7 +100,6 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
   <li>🎨 <b>Lenguajes de marcado:</b> HTML y CSS para la creación y diseño de interfaces web.</li>
 </ul>
 
----
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -119,7 +111,6 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
   <li><b>MySQL:</b> gestión e integración de bases de datos.</li>
 </ul>
 
----
 
 ## 💡 Cómo Usar Este Repositorio
 
@@ -132,7 +123,6 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
   <li>Ejecuta el código según los requisitos de cada proyecto.</li>
 </ol>
 
----
 
 ## 📌 Mejoras Futuras
 
@@ -144,7 +134,6 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
   <li>Actualizar y optimizar continuamente los proyectos existentes.</li>
 </ul>
 
----
 
 ## 📞 Contacto
 
