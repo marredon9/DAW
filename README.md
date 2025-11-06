@@ -97,7 +97,6 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
 
 ---
 
-## 📂 Estructura del Repositorio
 
 ## 📂 Estructura del Repositorio
 
