@@ -1,4 +1,4 @@
-#🌐 DAW (Web Applications Development) Repository
+# DAW (Web Applications Development) Repository
 
 Welcome to my DAW (Desarrollo de Aplicaciones Web) repository!
 This repository contains various projects and exercises related to web application development, including programming, PHP, MySQL, and markup languages.
@@ -120,7 +120,7 @@ Happy coding! 🚀
 
 ---
 
-#🌐 Repositorio DAW (Desarrollo de Aplicaciones Web)
+# Repositorio DAW (Desarrollo de Aplicaciones Web)
 
 ¡Bienvenido a mi repositorio de DAW (Desarrollo de Aplicaciones Web)!
 Este repositorio contiene diversos proyectos y ejercicios relacionados con el desarrollo de aplicaciones web, incluyendo programación, PHP, MySQL y lenguajes de marcado.
