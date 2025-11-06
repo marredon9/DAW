@@ -1,0 +1,28 @@
+
+  .card-image {
+    width: 18rem;
+    height: 100%; 
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-body {
+    min-height: 180px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .card-title,
+  .card-text {
+    margin-bottom: 0.5rem;
+  }
+
+  .btn {
+    align-self: start;
+  }
+
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reclamaciones</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Reclamaciones</h1>
+
+    <form onsubmit="return enviado()" style="width: 400px; margin: auto;">
+        <table style="margin: 0 auto;">
+            <tr>
+                <th>Nombre</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="nombre" required style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <th>Correo Electrónico</th>
+            </tr>
+            <tr>
+                <td><input type="email" name="correo" required style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <th>Seleccione motivo</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="motivo" required style="width: 100%;">
+                        <option value="">-----</option>
+                        <option value="no-llego">No ha llegado</option>
+                        <option value="defectuoso">Libro defectuoso</option>
+                        <option value="diferente">Libro diferente</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Asunto</th>
+            </tr>
+            <tr>
+                <td><textarea name="asunto" placeholder="Asunto" required style="width: 100%;"></textarea></td>
+            </tr>
+            <tr>
+                <th>Seleccionar archivo</th>
+            </tr>
+            <tr>
+                <td><input type="file" name="archivo" style="width: 100%;"></td>
+            </tr>
+            <tr>
+                <td>
+                   
+                        <input type="checkbox" name="terminos" required>
+                        He leído y acepto los términos y condiciones de patatas.
+                  
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+        function enviado() {
+            alert("Formulario enviado correctamente");
+            return true;
+        }
+    </script>
+</body>
+</html>

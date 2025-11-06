@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="encabezado">
+            <h3>BB<span class="letra-roja">K</span></h3>
+            <div class="panel-solar"></div>
+        </div>
+        <div class="pantalla" id="pantalla">0</div>
+        <div class="botones">
+        
+            <button class="botonchi" onclick="aplicarFuncion('sin')">sin</button>
+            <button class="botonchi" onclick="aplicarFuncion('cos')">cos</button>
+            <button class="botonchi" onclick="aplicarFuncion('tan')">tan</button>
+            <button class="botonchi" onclick="aplicarFuncion('log')">log</button>
+
+            <button class="botonchi" onclick="aplicarFuncion('sqrt')">√</button>
+            <button class="botonchi" onclick="aplicarFuncion('porcen')">%</button>
+            <button class="botonchi" onclick="aplicarFuncion('pi')">π</button>
+            
+            <button class="botonchi" onclick="agregar('/')">/</button>
+            <button onclick="agregar('7')">7</button>
+            <button onclick="agregar('8')">8</button>
+            <button onclick="agregar('9')">9</button>
+
+            <button class="botonchi" onclick="agregar('*')">*</button>
+            <button onclick="agregar('4')">4</button>
+            <button onclick="agregar('5')">5</button>
+            <button onclick="agregar('6')">6</button>
+
+            <button class="botonchi" onclick="agregar('-')">-</button>
+            <button onclick="agregar('1')">1</button>
+            <button onclick="agregar('2')">2</button>
+            <button onclick="agregar('3')">3</button>
+
+            <button class="botonchi" onclick="agregar('+')">+</button>
+            <button onclick="agregar('0')">0</button>
+            <button onclick="agregar('.')">.</button>
+            <button class="clear" onclick="limpiar()">c</button>
+            <button onclick="calcular()">=</button>
+
+
+
+
+        </div>
+    </div>
+
+    <script>
+        let pantalla = document.getElementById('pantalla');
+
+        function agregar(valor) {
+            if (pantalla.innerText === '0') {
+                pantalla.innerText = valor;
+            } else {
+                pantalla.innerText += valor;
+            }
+        }
+
+        function limpiar() {
+            pantalla.innerText = '0';
+        }
+
+        function calcular() {
+            try {
+                let expresion = pantalla.innerText.replace(/(\d+(?:\.\d+)?)\^(\d+(?:\.\d+)?)/g, 'Math.pow($1,$2)');
+                pantalla.innerText = eval(expresion);
+            } catch (e) {
+                pantalla.innerText = 'Error';
+            }
+        }
+
+        function aplicarFuncion(func) {
+            try {
+                let valor = eval(pantalla.innerText);
+                let resultado;
+
+                switch (func) {
+                    case 'sin':
+                        resultado = Math.sin(valor);
+                        break;
+                    case 'cos':
+                        resultado = Math.cos(valor);
+                        break;
+                    case 'tan':
+                        resultado = Math.tan(valor);
+                        break;
+                    case 'log':
+                        resultado = Math.log10(valor);
+                        break;
+                    case 'sqrt':
+                        resultado = Math.sqrt(valor);
+                        break;
+                    case 'porcen':
+                        resultado = valor / 100;
+                        break;
+                    case 'pi':
+                        resultado = Math.PI;
+                        break;
+                }
+
+                pantalla.innerText = resultado;
+            } catch (e) {
+                pantalla.innerText = 'Error';
+            }
+        }
+    </script>
+</body>
+
+</html>
