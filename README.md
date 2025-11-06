@@ -1,7 +1,7 @@
 <h1 align="center">🌐 DAW · Web Applications Development</h1> <p align="center"> <b>Interface Design · Client-Server Web Development</b><br> <i>Repository of DAW projects and exercises</i> </p>
 <div align="center"> <img src="https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-blue?logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white" /> <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white" /> </div>
 
-💻 Description
+## 💻 Description
 
 Welcome to my DAW (Web Applications Development) repository!
 This repository contains various projects and exercises related to web development, including programming, PHP, MySQL, and markup languages.
@@ -9,59 +9,60 @@ It is a constantly evolving project, updated with new practices, improvements, a
 
 I’m currently developing my skills in web interface design, as well as in client-side and server-side development, aiming to create complete, functional, and visually appealing web applications.
 
-📂 Repository Structure
+## 📂 Repository Structure
 
-🧠 Programming: projects using JavaScript and Java.
+<ul>
+  <li>🧠 <b>Programming:</b> projects using JavaScript and Java.</li>
+  <li>🐘 <b>PHP:</b> backend development, OOP, forms, sessions, and CRUD examples.</li>
+  <li>🗄️ <b>MySQL:</b> database schemas, SQL queries, stored procedures, and management exercises.</li>
+  <li>🎨 <b>Markup Languages:</b> HTML and CSS for web structure and design.</li>
+</ul>
 
-🐘 PHP: backend development, OOP, forms, sessions, and CRUD examples.
+---
 
-🗄️ MySQL: database schemas, SQL queries, stored procedures, and management exercises.
+## 🚀 Technologies Used
 
-🎨 Markup Languages: HTML and CSS for web structure and design.
+<ul>
+  <li><b>HTML & CSS:</b> structure and style of web pages.</li>
+  <li><b>JavaScript:</b> client-side logic and interactivity.</li>
+  <li><b>PHP:</b> server-side programming and dynamic content.</li>
+  <li><b>Java:</b> object-oriented backend development.</li>
+  <li><b>MySQL:</b> database management and integration.</li>
+</ul>
 
-🚀 Technologies Used
+---
 
-HTML & CSS: structure and style of web pages.
+## 💡 How to Use This Repository
 
-JavaScript: client-side logic and interactivity.
+<ol>
+  <li>Clone the repository:
+    <pre><code>git clone https://github.com/marredon9/DAW.git</code></pre>
+  </li>
+  <li>Navigate to the desired section.</li>
+  <li>Modify the files as needed.</li>
+  <li>Run the code following each project's requirements.</li>
+</ol>
 
-PHP: server-side programming and dynamic content.
+---
 
-Java: object-oriented backend development.
+## 📌 Future Improvements
 
-MySQL: database management and integration.
+<ul>
+  <li>Add more complex <b>database projects</b>.</li>
+  <li>Develop a <b>full-stack web application</b> (PHP + MySQL + JavaScript).</li>
+  <li>Explore modern frameworks like <b>React</b>, <b>Vue</b>, and <b>Spring Boot</b>.</li>
+  <li>Continue improving <b>UI/UX design</b> and <b>responsive layouts</b>.</li>
+  <li>Update and optimize existing projects regularly.</li>
+</ul>
 
-💡 How to Use This Repository
+---
 
-Clone the repository:
+## 📞 Contact
 
-git clone https://github.com/marredon9/DAW.git
+If you have any questions or suggestions, feel free to reach out!  
+<b>Happy coding! 🚀</b>
 
-
-Navigate to the desired section.
-
-Modify the files as needed.
-
-Run the code following each project's requirements.
-
-📌 Future Improvements
-
-Add more complex database projects.
-
-Develop a full-stack web application (PHP + MySQL + JavaScript).
-
-Explore modern frameworks like React, Vue, and Spring Boot.
-
-Continue improving UI/UX design and responsive layouts.
-
-Update and optimize existing projects regularly.
-
-📞 Contact
-
-If you have any questions or suggestions, feel free to reach out!
-Happy coding! 🚀
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=marredon9&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="48%"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marredon9&layout=compact&theme=tokyonight" alt="Top Languages" width="48%"> </p> 
+---
 
 <br><br>
 
@@ -98,49 +99,57 @@ Actualmente, estoy **desarrollando mis habilidades en el diseño de interfaces w
 
 ## 📂 Estructura del Repositorio
 
-- 🧠 **Programación:** proyectos con JavaScript y Java.  
-- 🐘 **PHP:** desarrollo backend, POO, manejo de formularios, sesiones y CRUD.  
-- 🗄️ **MySQL:** esquemas, consultas SQL, procedimientos almacenados y ejercicios de gestión.  
-- 🎨 **Lenguajes de marcado:** HTML y CSS para la creación y diseño de interfaces web.
+## 📂 Estructura del Repositorio
+
+<ul>
+  <li>🧠 <b>Programación:</b> proyectos con JavaScript y Java.</li>
+  <li>🐘 <b>PHP:</b> desarrollo backend, POO, manejo de formularios, sesiones y CRUD.</li>
+  <li>🗄️ <b>MySQL:</b> esquemas, consultas SQL, procedimientos almacenados y ejercicios de gestión.</li>
+  <li>🎨 <b>Lenguajes de marcado:</b> HTML y CSS para la creación y diseño de interfaces web.</li>
+</ul>
 
 ---
 
 ## 🚀 Tecnologías Utilizadas
 
-- **HTML & CSS:** estructura y estilo de las páginas web.  
-- **JavaScript:** lógica e interactividad del lado del cliente.  
-- **PHP:** programación del lado del servidor y contenido dinámico.  
-- **Java:** programación orientada a objetos y desarrollo backend.  
-- **MySQL:** gestión e integración de bases de datos.
+<ul>
+  <li><b>HTML & CSS:</b> estructura y estilo de las páginas web.</li>
+  <li><b>JavaScript:</b> lógica e interactividad del lado del cliente.</li>
+  <li><b>PHP:</b> programación del lado del servidor y contenido dinámico.</li>
+  <li><b>Java:</b> programación orientada a objetos y desarrollo backend.</li>
+  <li><b>MySQL:</b> gestión e integración de bases de datos.</li>
+</ul>
 
 ---
 
 ## 💡 Cómo Usar Este Repositorio
 
-1. Clona el repositorio:  
-   ```bash
-   git clone https://github.com/marredon9/DAW.git
-Navega hasta la sección que desees.
+<ol>
+  <li>Clona el repositorio:
+    <pre><code>git clone https://github.com/marredon9/DAW.git</code></pre>
+  </li>
+  <li>Navega hasta la sección que desees.</li>
+  <li>Modifica los archivos según tus necesidades.</li>
+  <li>Ejecuta el código según los requisitos de cada proyecto.</li>
+</ol>
 
-Modifica los archivos según tus necesidades.
+---
 
-Ejecuta el código según los requisitos de cada proyecto.
+## 📌 Mejoras Futuras
 
-📌 Mejoras Futuras
+<ul>
+  <li>Incorporar proyectos con bases de datos más complejas.</li>
+  <li>Implementar una <b>aplicación web full-stack</b> (PHP + MySQL + JavaScript).</li>
+  <li>Explorar frameworks modernos como <b>React</b>, <b>Vue</b> o <b>Spring Boot</b>.</li>
+  <li>Mejorar las habilidades en <b>diseño UI/UX</b> y <b>diseño responsive</b>.</li>
+  <li>Actualizar y optimizar continuamente los proyectos existentes.</li>
+</ul>
 
-Incorporar proyectos con bases de datos más complejas.
+---
 
-Implementar una aplicación web full-stack (PHP + MySQL + JavaScript).
+## 📞 Contacto
 
-Explorar frameworks modernos como React, Vue o Spring Boot.
+Si tienes alguna pregunta, idea o sugerencia, ¡no dudes en ponerte en contacto!  
+<b>¡Feliz programación! 🚀</b>
 
-Mejorar las habilidades en diseño UI/UX y diseño responsive.
-
-Actualizar y optimizar continuamente los proyectos existentes.
-
-📞 Contacto
-
-Si tienes alguna pregunta, idea o sugerencia, ¡no dudes en ponerte en contacto!
-¡Feliz programación! 🚀
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=marredon9&show_icons=true&theme=tokyonight" alt="Estadísticas de GitHub" width="48%"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marredon9&layout=compact&theme=tokyonight" alt="Lenguajes más usados" width="48%"> </p>
+---
