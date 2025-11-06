@@ -1,6 +1,6 @@
 <h1 align="center">🌐 DAW · Web Applications Development</h1> <p align="center"> <b>Interface Design · Client-Server Web Development</b><br> <i>Repository of DAW projects and exercises</i> </p>
 <div align="center"> <img src="https://img.shields.io/badge/HTML-orange?logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-blue?logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=white" /> <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/MySQL-00758F?logo=mysql&logoColor=white" /> </div>
-🇬🇧 English Version
+
 💻 Description
 
 Welcome to my DAW (Web Applications Development) repository!
