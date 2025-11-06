@@ -1,0 +1,149 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: lightblue;
+  font-size: 24px;
+  
+}
+
+
+#especial{
+    text-align: right;
+    color: purple;
+    font-size: 15px;
+}
+
+.important{
+    text-align: center;
+    color: orange;
+    font-size: 10px;
+}
+
+p{
+    text-align: left;
+    color: black;
+    font-size: 12px;
+}
+
+#p{
+    color: lawngreen;
+    font-size: 5px;
+}
+
+.container:hover{
+    background-color: green;
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px;
+    padding: 20px;
+    margin: 15px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+.contenedor {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.contenedor2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    position: relative;
+}
+
+.mini {
+    width: 100px;
+    height: 50px;
+    background-color: violet;
+    position: absolute; 
+    top: 0;
+    right: 0;
+}
+
+.boton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.tarjeta {
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    max-width: 300px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.tarjeta h2 {
+    margin: 0;
+    color: #333;
+}
+
+.tarjeta h4 {
+    margin-top: 5px;
+    color: #666;
+    font-weight: normal;
+}
+
+.tarjeta p {
+    margin-top: 10px;
+    color: #444;
+    font-size: 14px;
+}
+
+.flex-layout {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.caja {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.rojo {
+    background-color: #e73ce7;
+}
+
+.verde {
+    background-color: #0040ff;
+}
+
+.azul {
+    background-color: #3498db;
+}

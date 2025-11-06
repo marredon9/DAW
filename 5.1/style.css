@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(173, 173, 255);
+}
+
+.usuario{
+    padding: 20px;
+    border: 2px solid black;
+}
+
+#nombre{
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+span.dato{
+    color: green;
+}
+
+.boton:hover{
+    background-color: aqua;
+}
+
+.datos li:first-child{
+    font-weight: bold;
+}
+
+a[href^="#"] {
+  color: crimson; 
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
